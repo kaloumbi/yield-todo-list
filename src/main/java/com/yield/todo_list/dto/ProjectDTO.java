@@ -16,4 +16,5 @@ public class ProjectDTO {
     private String description;
 
     private ETAT etat;
+
 }

@@ -23,4 +23,8 @@ public class Tache {
     @Column(name = "etat", nullable = false)
     @Enumerated(EnumType.STRING)
     private ETAT etat;
+
+    @ManyToOne
+    @JoinColumn(name = "projet_id", referencedColumnName = "id")
+    private Projet projet;
 }
