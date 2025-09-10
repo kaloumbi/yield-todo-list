@@ -12,8 +12,5 @@ Developpement
 
 ## Lancement
 
-# Backend Seul
-On le lance à partir du fichier executable.
-
-# Frontend Seul
-ng serve
+# Backend
+On le lance à partir du fichier executable
